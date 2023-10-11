@@ -1,6 +1,7 @@
-package com.example.roomdb
+package com.example.roomdb.repo
 
-import kotlinx.coroutines.flow.Flow
+import com.example.roomdb.database.UserDao
+import com.example.roomdb.model.User
 import javax.inject.Inject
 
 

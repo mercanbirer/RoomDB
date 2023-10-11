@@ -1,7 +1,9 @@
-package com.example.roomdb
+package com.example.roomdb.module
 
 import android.app.Application
 import androidx.room.Room
+import com.example.roomdb.database.Database
+import com.example.roomdb.database.UserDao
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

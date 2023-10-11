@@ -1,7 +1,8 @@
-package com.example.roomdb
+package com.example.roomdb.database
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
+import com.example.roomdb.model.User
 
 @Database(
     entities = [User::class],

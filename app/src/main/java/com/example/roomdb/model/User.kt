@@ -1,4 +1,4 @@
-package com.example.roomdb
+package com.example.roomdb.model
 
 import android.os.Parcelable
 import androidx.room.ColumnInfo
